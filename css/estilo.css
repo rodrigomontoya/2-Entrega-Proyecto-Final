@@ -214,6 +214,14 @@
     color:rgb(5, 5, 5);
     transition:2s; 
  }
+ #titulo-galeria{
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ #titulo-galeria:hover{
+    color:rgb(5, 5, 5);
+    transition:2s; 
+ }
 
 
 
