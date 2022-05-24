@@ -38,6 +38,11 @@
       background-repeat:no-repeat;  
       width:13vw; 
   }
+
+  .logo:hover{
+      transform:rotate(360deg);
+      transition:2s;
+  }
  
   /*main*/
  
@@ -195,13 +200,20 @@
  height:400px;
  border: solid 5px black;
  border-radius:5px;
+ padding:3px;
 }
 
 #galeria img:hover{
-    border: 5px solid rgb(99, 8, 8);
+    border: 5px solid rgb(241, 237, 237);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     transition: transform 2s;
+}
+ #galeria.btn{
+border:2px solid rgb(143, 119, 119);
+}
+#galeria .btn:hover{
+ color:black;   
 }
 
 #Titulo_productos{
